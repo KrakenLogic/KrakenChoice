@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=43.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "krakenchoice"
+version = "0.0.1"
+readme = "README"
+description = "MADM Decision Making Python Package"
+license = {file = "LICENSE"}
+requires-python = ">=3.9"
+dependencies = [
+    "numpy >= 1.25",
+    "pandas >= 2.0.0",
+]
+
+[project.optional-dependencies] # Optional
+dev = ["check-manifest"]
+test = ["coverage"]
+
+[project.urls]  # Optional
+"Homepage" = "https://github.com/KrakenLogic/KrakenChoice"
+
+[project.scripts]  # Optional
+sample = "krakenchoice:main"
