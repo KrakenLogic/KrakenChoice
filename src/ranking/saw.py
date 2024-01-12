@@ -23,7 +23,7 @@ def normalize_data(data, criterion_type):
 
   return D
 
-# calculatopn of saw score
+# calculation of saw score
 def calculate_saw_scores(normalized_data, weights):
   scores = normalized_data @ weights
   return scores
