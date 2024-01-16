@@ -1,7 +1,12 @@
-import numpy as np
 
+import os, sys
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+# import ../db.py
 
 from mcdm_base import MADMBase
+
+import numpy as np
+
 
 def data_gen():
   rawdata = np.random.randint(low=1, high=15, size=np.random.randint(low=1, high=10, size=(1,2))[0])
