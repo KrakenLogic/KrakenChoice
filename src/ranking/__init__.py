@@ -1,2 +1,2 @@
-from vikor import Vikor
-from topsis import Topsis
+from .vikor import Vikor
+from .topsis import Topsis
