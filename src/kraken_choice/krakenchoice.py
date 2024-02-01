@@ -1,1 +1,1 @@
-from ..ranking import Topsis, Vikor
+from ranking import Topsis, Vikor
