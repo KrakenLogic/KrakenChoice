@@ -1,5 +1,5 @@
 import numpy as np
-from ..mcdm_base import MADMBase
+from madm import MADMBase
 
 class Topsis(MADMBase):
 

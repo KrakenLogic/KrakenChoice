@@ -1,5 +1,5 @@
-from ..mcdm_base import MADMBase
 import numpy as np
+from madm import MADMBase
 
 class Entropy(MADMBase):
 
